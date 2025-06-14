@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "Daniel Chagas",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3"
+  }
 }
