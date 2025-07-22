@@ -4,9 +4,7 @@ import { PrismaClient } from '../../generated/prisma/index.js'
 
 export async function createPoll(app: FastifyInstance) {
   
-  const prisma = new PrismaClient({
-    log: ['query']
-  })
+  const prisma = new PrismaClient()
 
   app.post('/polls', async (request, reply) => {
     const createPollBody = z.object({
