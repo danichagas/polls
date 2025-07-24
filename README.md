@@ -7,13 +7,13 @@
 
 Uma API robusta para criação e votação de enquetes, construída com as mais modernas ferramentas do ecossistema Node.js.
 
-## 📜 Sobre o Projeto
+## Sobre o Projeto
 
 Esta API permite que os usuários criem enquetes com múltiplas opções, votem nelas e vejam os resultados em tempo real. O projeto foi desenvolvido com foco em escalabilidade e boas práticas de desenvolvimento, utilizando Docker para garantir um ambiente consistente e fácil de configurar.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **Criação de Enquetes:** Crie novas enquetes com um título e múltiplas opções.
 * **Votação:** Registre votos em uma opção específica de uma enquete.
@@ -24,7 +24,7 @@ Esta API permite que os usuários criem enquetes com múltiplas opções, votem 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Este projeto foi construído com as seguintes tecnologias:
 
@@ -35,14 +35,5 @@ Este projeto foi construído com as seguintes tecnologias:
 * [**Prisma**](https://www.prisma.io/): ORM (Object-Relational Mapper) de última geração para interagir com o banco de dados.
 * [**Zod**](https://zod.dev/): Biblioteca para validação de esquemas de dados.
 
+
 ---
-
-## 🚀 Como Executar o Projeto
-
-Para executar este projeto, você precisará ter o [**Docker**](https://www.docker.com/get-started/) e o [**Docker Compose**](https://docs.docker.com/compose/install/) instalados na sua máquina.
-
-### 1. Clonar o Repositório
-
-```bash
-git clone https://github.com/danichagas/polls.git
-cd polls
